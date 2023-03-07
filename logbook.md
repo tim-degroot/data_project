@@ -88,3 +88,12 @@
 
 - Used [Jupyter Widgets](https://ipywidgets.readthedocs.io/en/latest/). Used documentation: [Using Interact](https://ipywidgets.readthedocs.io/en/latest/examples/Using%20Interact.html) and [Widget List](https://ipywidgets.readthedocs.io/en/latest/examples/Widget%20List.html)
 - Added selection for postal code and factors to take into the decomposition.
+- Made decompose into a class to easily use different datasets.
+
+### Goal: Plot decomposition of one variable on a map
+
+- Reworked code and plot to loop over locations instead of postal code and managed to get working.
+- Used Jupyter Widgets to make interactive.
+
+### Goal: Make notebook into one nicely structured final project.
+
