@@ -97,3 +97,7 @@
 
 ### Goal: Make notebook into one nicely structured final project.
 
+- Made ```notebook.ipynb``` which is the final project file.
+    - Added the progress through the project with added explanation.
+    - Reworked the functions to work properly and in a new order.
+    - Added new text description
