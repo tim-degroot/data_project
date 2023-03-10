@@ -25,7 +25,9 @@ The **effect map dashboard** *(3.2)* shows the decomposed effect of the selected
 - The selected factor should be in the factors m.
 
 ### File structure
-- ```data/``` contains the data files used.
+- Directory ```.ipynb_checkpoints``` contains notebook checkpoints
+- Directory ```
+- Directory ```data/``` contains the data files used.
 - ```notebook.ipynb``` contains the final product of all final functions and dashboards.
 - ```working.ipynb``` contains all functions developped in the process of getting to the final functions and dashboards.
 - ```logbook.md``` contains a daily logbook of what was done, what documentation or help was used and what problems where encountered.
