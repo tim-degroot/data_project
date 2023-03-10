@@ -3,16 +3,14 @@
 The aim of this project is to analyse different factors and their effect on land rents. The final product presented is a notebook which contains some plots and background information and two interactive dashboards which give insight on the factors that cause difference in land rents in the Netherlands.
 
 ## Features
-The project contains different functions and two interactive dashboards.
-
-Functions:
+### Functions
 - ```plot(column, n)```: Plot *column* of the dataset to a map on a 4-digit zipcode level
 - ```plot_relation(data, column, title=''):```: Plot the log log correlation of *column* to p_m2_FE from *data* and draw a Ordinary Least Squares (OLS) regression trendlines
 - ```coeff_df(dataset, m)```: Fit a Linear Regression model of factors *m* of *dataset* and return the R^2 score and a DataFrame of coefficients
 - ```decompose(location, m)```: Plot the decomposition of the land value difference in *location* compared to the average as effected by factors *m*
 - ```factor_map(factor, m)```: Plot a map which plots the effect of *factor* as determined by a Linear Regression model which takes *m* as input
 
-**Interactive dashboards**:
+### Interactive dashboards
 - A dashboard of ```decompose(location, m)``` where location and m can be selected.
 - A dashboard of ```factor_map(factor, m)``` where factor and m can be selected.
 
@@ -26,8 +24,6 @@ The **effect map dashboard** *(3.2)* shows the decomposed effect of the selected
 - The selected factor should be in the factors m.
 
 ### File structure
-- Directory ```.ipynb_checkpoints``` contains notebook checkpoints
-- Directory ```
 - Directory ```data/``` contains the data files used.
 - ```notebook.ipynb``` contains the final product of all final functions and dashboards.
 - ```working.ipynb``` contains all functions developped in the process of getting to the final functions and dashboards.
@@ -42,7 +38,7 @@ The program uses two different data sources which can be replaced by other simil
 - An additional data source with data per regions is used and the data is added to one dataframe with the shapefiles. More additional data sources can be added for more comprehensive analysis.
     - [Grondprijzen per postcode, 2011](http://landvalues.nl/) was used as the source for land rents per postal code. 
 
-### Techniques used
+### Prerequisites
 - [GeoPandas](https://github.com/geopandas/geopandas) is used to work with shapefiles within pandas.
 - [pandas](https://github.com/pandas-dev/pandas) is used for data importing and analysis
 - [Matplotlib](https://github.com/matplotlib/matplotlib) is used for plotting maps.
