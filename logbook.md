@@ -101,3 +101,9 @@
     - Added the progress through the project with added explanation.
     - Reworked the functions to work properly and in a new order.
     - Added new text description
+
+## Friday 10/03/2023
+## Goal: Work on final hand in version
+
+- Rewrote docstring documentation in notebook.ipynb
+- Rewrote and added to readme.md documentation
