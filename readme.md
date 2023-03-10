@@ -11,6 +11,7 @@ Functions:
 - ```coeff_df(dataset, m)```: Fit a Linear Regression model of factors *m* of *dataset* and return the R^2 score and a DataFrame of coefficients
 - ```decompose(location, m)```: Plot the decomposition of the land value difference in *location* compared to the average as effected by factors *m*
 - ```factor_map(factor, m)```: Plot a map which plots the effect of *factor* as determined by a Linear Regression model which takes *m* as input
+
 **Interactive dashboards**:
 - A dashboard of ```decompose(location, m)``` where location and m can be selected.
 - A dashboard of ```factor_map(factor, m)``` where factor and m can be selected.
