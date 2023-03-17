@@ -103,7 +103,14 @@
     - Added new text description
 
 ## Friday 10/03/2023
-## Goal: Work on final hand in version
+### Goal: Work on final hand in version
 
 - Rewrote docstring documentation in notebook.ipynb
 - Rewrote and added to readme.md documentation
+
+## Friday 17/03/2023
+### Goal: Work on final version
+
+- Removed ```working.ipynb``` which contained the old functions from the repository.
+- Rewrote readme documentation
+- Rewrote documentation in ```notebook.ipynb```
