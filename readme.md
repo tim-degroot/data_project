@@ -1,9 +1,9 @@
 *Developped by Tim de Groot for the course [Data Processing](https://studiegids.uva.nl/xmlpages/page/2022-2023/zoek-vak/vak/98740) of the UvA*
-# What explains variation in land rents? - Data Processing project
-The aim of this project is to analyse different variables and their effect on land rents. The final product presented is a notebook which contains some background information including some plots and two interactive dashboards which give insight on the explanatory variables that cause difference in land rents in the Netherlands.
+# What explains variation in land rents? 
+## Aim and research question
+The aim of this project is to empirically identify the impact of various characteristics of locations on land rents. It builds on an important notion in urban economics that land rents capture the attractiveness of locations, as it is a measure of the willingnes to pay for living in a particular location. This willingness is of course influenced by a lot of different characteristics. The question that is central in this project is what the characteristics of locations are for which people are willing to pay, and how much. Or, put simply: what explains variation in land rents? 
 
-## Research question
-What explains variation in land rents?
+The final product presented is a notebook which contains some background information including some plots and two interactive dashboards which give insight on the explanatory variables that cause differences in land rents in the Netherlands. It can serve as a starting point for further development with specialists in the field of urban economics.
 
 ## Installation
 Download all files (Markdown files are not required for running the program).
@@ -24,15 +24,15 @@ With all dependencies installed in an environment you can run the main notebook 
 
 ## Data structure
 The program requires a GeoPandas DataFrame which contains at least the following:
-- a column containing **shapes**, which are used for the different plots.
-- a column ```p_m2_FE``` containing **land rents**, which are used for the financial analysis.
-- a column containing ***statistics***, which can be used to investigate their effect on land rents.
-    - The program theoretically allows for unlimited statistics.
+- a column containing **shapes**, which are used for the different maps.
+- a column ```p_m2_FE``` containing **land rents**, which are used for the economic analysis.
+- a column containing ***statistics*** (variables), which can be used to investigate their effect on land rents.
+    - The program theoretically allows for an unlimited number of statistics.
 
 ### Data used
 This version uses the following publicly available data sources:
-- [Kerncijfers per postcode, 2018](https://www.cbs.nl/nl-nl/dossier/nederland-regionaal/geografische-data/gegevens-per-postcode) was used as the source for shapefiles of postal codes and for statistics per postal code.
-- [Grondprijzen per postcode, 2011](http://landvalues.nl/) was used as the source for land rents per postal code.
+- [Kerncijfers per postcode, 2018](https://www.cbs.nl/nl-nl/dossier/nederland-regionaal/geografische-data/gegevens-per-postcode) was used as the source for shapefiles of postal codes and for statistics per 4-digit zip code.
+- [Grondprijzen per postcode, 2011](http://landvalues.nl/) was used as the source for land rents per 4-digit zip code.
 
 ## Prerequisites
 - [GeoPandas](https://github.com/geopandas/geopandas) is used to work with shapefiles within pandas.
