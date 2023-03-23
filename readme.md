@@ -8,10 +8,10 @@ What explains variation in land rents?
 ## Installation
 Download all files (Markdown files are not required for running the program).
 Use the following [pip](https://pip.pypa.io/en/stable/) and [conda](https://docs.conda.io/en/latest/) commands to install all required modules and to make a new environment.
-
-```pip install geopandas pandas matplotlib plotly scikit-learn ipywidgets numpy
-conda create -n landrents python=3.11.0 geopandas pandas matplotlib plotly scikit-learn ipywidgets numpy```
-
+```
+pip install geopandas pandas matplotlib plotly scikit-learn ipywidgets numpy
+conda create -n landrents python=3.11.0 geopandas pandas matplotlib plotly scikit-learn ipywidgets numpy
+```
 With all dependencies installed in an environment you can run the main notebook using [Jupyter Notebook](https://jupyter.org/) or [JupyterLab](https://jupyter.org/).
 
 
