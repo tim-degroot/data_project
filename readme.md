@@ -1,6 +1,6 @@
 *Developped by Tim de Groot for the course [Data Processing](https://studiegids.uva.nl/xmlpages/page/2022-2023/zoek-vak/vak/98740) of the UvA*
 # What explains variation in land rents? - Data Processing project
-The aim of this project is to analyse different variables and their effect on land rents. The final product presented is a notebook which contains some plots and background information and two interactive dashboards which give insight on the explanatory variables that cause difference in land rents in the Netherlands.
+The aim of this project is to analyse different variables and their effect on land rents. The final product presented is a notebook which contains some background information including some plots and two interactive dashboards which give insight on the explanatory variables that cause difference in land rents in the Netherlands.
 
 ## Research question
 What explains variation in land rents?
