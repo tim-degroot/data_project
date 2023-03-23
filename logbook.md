@@ -111,6 +111,13 @@
 ## Friday 17/03/2023
 ### Goal: Work on final version
 
+- Received feedback on documentation from Milena Kapralova.
 - Removed ```working.ipynb``` which contained the old functions from the repository.
 - Rewrote readme documentation
 - Rewrote documentation in ```notebook.ipynb```
+
+## Thursday 23/03/2023
+### Goal: Finalize projects
+
+- Added column 'Variable' to DataFrame shown under 2.1 Linear Regression with full name of variables.
+- Changed documentation in ```notebook.ipynb``` and ```readme.md``` based on feedback from proofreaders, mostly fellow students.

@@ -1,28 +1,31 @@
 *Developped by Tim de Groot for the course [Data Processing](https://studiegids.uva.nl/xmlpages/page/2022-2023/zoek-vak/vak/98740) of the UvA*
-# Land Rent Dashboards - Data Processing project
-The aim of this project is to analyse different factors and their effect on land rents. The final product presented is a notebook which contains some plots and background information and two interactive dashboards which give insight on the factors that cause difference in land rents in the Netherlands.
+# What explains variation in land rents? - Data Processing project
+The aim of this project is to analyse different variables and their effect on land rents. The final product presented is a notebook which contains some plots and background information and two interactive dashboards which give insight on the explanatory variables that cause difference in land rents in the Netherlands.
 
 ## Research question
+What explains variation in land rents?
 
 ## Installation
 Download all files (Markdown files are not required for running the program).
-Use the following [pip](https://pip.pypa.io/en/stable/) command to install all required modules:
-```pip install geopandas pandas matplotlib plotly scikit-learn ipywidgets numpy```
-With all dependencies installed you can run the main notebook using Jupyter Notebook.
+Use the following [pip](https://pip.pypa.io/en/stable/) and [conda](https://docs.conda.io/en/latest/) commands to install all required modules and to make a new environment.
+
+```pip install geopandas pandas matplotlib plotly scikit-learn ipywidgets numpy
+conda create -n landrents python=3.11.0 geopandas pandas matplotlib plotly scikit-learn ipywidgets numpy```
+
+With all dependencies installed in an environment you can run the main notebook using [Jupyter Notebook](https://jupyter.org/) or [JupyterLab](https://jupyter.org/).
 
 
 ## File structure
-- Directory ```data/``` contains the data files used.
+- Directory ```data/``` contains the data files used. Sources are listed below.
 - ```notebook.ipynb``` contains the final functions and dashboards.
 - ```logbook.md``` contains a daily logbook of what was done, what documentation or help was used and what problems where encountered.
 - ```readme.md``` this file.
-- ```variables.py``` contains variables (lists and dictionaries) used by ```notebook.ipynb```
+- ```variables.py``` contains variables (lists and dictionaries) used in ```notebook.ipynb```.
 
 ## Data structure
 The program requires a GeoPandas DataFrame which contains at least the following:
 - a column containing **shapes**, which are used for the different plots.
 - a column ```p_m2_FE``` containing **land rents**, which are used for the financial analysis.
-    - with some small modifications another (financial) statistic can be used.
 - a column containing ***statistics***, which can be used to investigate their effect on land rents.
     - The program theoretically allows for unlimited statistics.
 
