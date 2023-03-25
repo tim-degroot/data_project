@@ -9,8 +9,8 @@ The final product presented is a notebook which contains some background informa
 Download all files (Markdown files are not required for running the program).
 Use the following [pip](https://pip.pypa.io/en/stable/) and [conda](https://docs.conda.io/en/latest/) commands to install all required modules and to make a new environment.
 ```
-pip install geopandas pandas matplotlib plotly scikit-learn ipywidgets numpy
-conda create -n landrents python=3.11.0 geopandas pandas matplotlib plotly scikit-learn ipywidgets numpy
+pip install geopandas pandas matplotlib plotly scikit-learn ipywidgets numpy xlrd
+conda create -n landrents python=3.11.0 geopandas pandas matplotlib plotly scikit-learn ipywidgets numpy xlrd
 ```
 With all dependencies installed in an environment you can run the main notebook using [Jupyter Notebook](https://jupyter.org/) or [JupyterLab](https://jupyter.org/).
 
@@ -42,4 +42,4 @@ This version uses the following publicly available data sources:
 - [scikit-learn](https://github.com/scikit-learn/scikit-learn) is used as the Linear Regression model backend.
 - [ipywidgets](https://github.com/jupyter-widgets/ipywidgets) is used to make interactive html widgets within the jupyter notebook.
 - [numpy](https://github.com/numpy/numpy) is used as backend for nan values.
-
+- [xlrd](https://github.com/python-excel/xlrd) is a required dependency for pandas read_excel.
